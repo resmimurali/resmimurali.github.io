@@ -1,78 +1,22 @@
-html, body{
-	outline: 0px;
-	margin: 0px;
-	padding: 0px;
-	background: #ddd;
-}
+.container{
 
-header{
-	background-image: url(File://C:/Users/Resmi/Pictures/background.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 60vh;
-}
-
-.heading{ 
-        
-        	max-height: 400px;
-            min-height: 400px;
-			min-width: 100%;
-			
-			width: 1900px;
-			height: 400;
-			
-			position: fixed;
-			top: 0;
-			left: 0;
-			background-size: 100% 200px;
-			
-}
-
-@media screen and (max-width: 1024px){
-			.heading img {
-				left: 50%;
-				margin-left: -512px; }
-
-
-}
-li a
-{ 
-	display: inline-block; 
-	color:white;
-	font-weight: bold;
-	position: absolute;
-	right: -512px;
-}
-
-
-li
-{ 
-	display: inline-block; 
-	color:white;
-	font-weight: bold;
-	position: absolute;
-    top: 32px;
-    right: 512px;
-    font-size: 18px;
-}
-
-
-h1{
-
-	height:20em;
 	display: flex;
-	align-items: center;
+	flex-wrap: wrap;
 	justify-content: center;
-	color: white;
+}
+h1
+{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+
 }
 
-
-
-
-
- 
- 
- 
-
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+}
